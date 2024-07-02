@@ -69,6 +69,6 @@ def aaplication():
     st.subheader("Energy Consumption:")
     st.write(power_obj.kwh(int(time)))
     
- 
+
 if __name__ == '__main__':
-    main()
+    application()

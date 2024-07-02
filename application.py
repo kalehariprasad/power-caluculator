@@ -45,7 +45,7 @@ class Power:
         
         
  
-def main():
+def aaplication():
     st.title("Power Calculation App")
 
     # Input fields for voltage and current

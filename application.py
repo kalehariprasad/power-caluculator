@@ -1,5 +1,6 @@
 import streamlit as st
 import math
+import application
 
 class Power:
     def __init__(self, voltage, current):

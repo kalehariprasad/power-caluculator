@@ -1,6 +1,6 @@
 import streamlit as st
 import math
-import application
+
 
 class Power:
     def __init__(self, voltage, current):
@@ -45,7 +45,7 @@ class Power:
         
         
  
-def aaplication():
+def main():
     st.title("Power Calculation App")
 
     # Input fields for voltage and current
@@ -71,4 +71,4 @@ def aaplication():
     
 
 if __name__ == '__main__':
-    application()
+    main()
